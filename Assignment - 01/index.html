@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Showcasing CSS Selector</title>
+</head>
+<body>
+    <header>
+        <h1>Showcasing <span id="title">CSS Selector</span></h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <article id="home" class="banner">
+            <div class="banner-title">
+                <h2>Welcome to Our Website</h2>
+                <p>This is a simple demonstration of CSS selectors.</p>
+            </div>
+            <div class="banner-img">
+                <img src="./img/banner.png" alt="Banner Image">
+            </div>
+        </article>
+        <article id="about" class="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <img src="./img/img-01.png" alt="About image" id="about-img">
+                <p>We are a company dedicated to showcasing the power of CSS selectors.Our mission is to provide high-quality content
+                    and resources for web developers.</p>
+            </div>
+        </article>
+        <article id="testimonial" class="testimonial">
+            <h2>Testimonial</h2>
+            <div class="testi-content">
+                <p>The <span id="title">CSS Selector Showcase</span> offers a well-organized and visually appealing demonstration of how various CSS
+                selectors work. It’s a great resource for beginners and intermediate learners who want to see real-time examples of how
+                different selectors impact HTML elements.</p>
+                <img src="./img/img-01.png" alt="About image" id="about-img">
+            </div>
+        </article>
+        <section class="services" id="services">
+            <h2>Our Services</h2>
+            <div class="sidebar">
+                <ul class="sidebar-list">
+                    <li>Web Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Mobile App Development</li>
+                    <li>Cloud Services</li>
+                    <li>Cybersecurity Solutions</li>
+                </ul>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" title="Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 CSS Selector Showcase. All rights reserved.</p>
+        <p>Phone: 01823456782</p>
+        <p>Email: sdsds@gmail.com</p>
+</body>
+</html>

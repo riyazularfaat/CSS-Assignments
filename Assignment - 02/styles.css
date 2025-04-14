@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 67);
+}
+header {
+    text-align: center;
+    color: white;
+}
+header h1, #rest-name{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#rest-name{
+    color: aquamarine;
+    text-transform: uppercase;
+}
+.nav-list{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: center;
+    gap: 2.5vw;
+    list-style: none;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    padding-left: 5%;
+}
